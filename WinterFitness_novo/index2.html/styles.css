@@ -33,3 +33,27 @@ form button:hover {
     color:aqua;
 
 }
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 1em;
+}
+
+h7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 1em;
+}
+
+h6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 1em;
+}
