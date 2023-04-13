@@ -1,0 +1,59 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 1em;
+}
+
+form{
+    border: 1px solid whitesmoke;
+    border-radius: 0.3 em;
+    padding: 0.3em;
+
+}
+form input, form button{
+    font-size:1.2 em;
+    border: radius 0.2em; ;
+    border:none;
+    padding: 0.2em;
+
+}
+form button{
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+}
+form button:hover {
+    background-color: whitesmoke;
+    color:aqua;
+
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 1em;
+}
+
+h7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 1em;
+}
+
+h6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 1em;
+}
