@@ -3,7 +3,7 @@
 #Integrantes : 
 Nayara Scherer,
 Ricardo  Resende e 
-Suellen 
+Suellen Pereira.
 
 Profª Julian  Sinnott
 
