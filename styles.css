@@ -41,12 +41,19 @@
     padding: 10px;
     list-style: none;
     gap: 130px;
-    
-    
-    
-
-    
+        
   }
+  .barra3 {
+    background-color:rgba(224, 201, 201, 0.555);
+    color: rgba(235, 215, 235, 0);
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    list-style: none;
+    gap: 130px;
+        
+  }
+
   
   ul{
     display: flex;
