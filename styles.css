@@ -1,0 +1,64 @@
+* {
+    font-family: 'Roboto', sem serifa;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+ 
+  .logo_barra{
+    border-radius: 16px;
+    height: 100%;
+    
+    
+    
+  }
+
+  .nav_link {
+    text-decoration: none;
+  }
+  .nav2_link {
+    text-decoration: none;
+
+    
+  }
+
+  header{
+    background-color:turquoise;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+    
+    
+    
+  }
+  
+  .barra2 {
+    background-color: #70a4e0b4;
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    list-style: none;
+    gap: 130px;
+    
+    
+    
+
+    
+  }
+  
+  ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+  
+  }
+  nav ul li{
+    list-style: none;
+    margin-left: 16px;
+    list-style-type: none;
+    
+    
+  }
+
