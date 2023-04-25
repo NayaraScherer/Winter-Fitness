@@ -7,14 +7,16 @@
     
   }
 
- 
   .logo_barra{
-    border-radius: 16px;
-    height: 90%;
+    border-radius: 60px;
+    height: 100%;
+    width: 200px;
     color:white;
+    mix-blend-mode: multiply; #remove cor de fundo 
        
     
   }
+ 
 
   .nav_link {
     text-decoration: none;
@@ -30,10 +32,13 @@
   header{
     background-color:turquoise;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     padding: 10px;
     height: 100%;
     color: black;
+    gap: 600px;
+    
+    
     
     
     
