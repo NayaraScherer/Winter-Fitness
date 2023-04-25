@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sem serifa;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold; 
     margin: 0;
     padding: 0;
@@ -16,18 +16,80 @@
        
     
   }
- 
+  .search-box{
+    position: absolute;
+    justify-content: space-between;
+    top: 7%;
 
+    background: white;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  ::-webkit-input-placeholder{
+    font-size: 17px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#aeaeae ;
+  }
+  .search-tex{
+    background: none;
+    border: 0;
+    outline: 0;
+
+    padding: 0;
+    font-size: 16px;
+
+    width: 0;
+
+    transition: 0.4s;
+  }
+  .search-btn{
+    width:50px ;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+  }
+  .loupe-white{
+    display: none;
+  }
+ .search-box:hover > .search-tex{
+  width: 320px;
+  padding-left: 20px;
+ }
+
+ .search-box:hover > .search-btn{
+  background:#447ce7;
+ }
+
+ .search-box:hover > .search-btn .loupe-blue{
+  display:none ;
+ }
+ .search-box:hover > .search-btn .loupe-white{
+  display: block;
+ }
   .nav_link {
     text-decoration: none;
     color: white;
   }
   .nav2_link {
     text-decoration: none;
-    color:white
+    color:white;
+    background: linear-gradient ( 287.56deg,#437DE2 0%,turquoise 100% );
 
     
   }
+
 
   header{
     background-color:turquoise;
@@ -37,11 +99,7 @@
     height: 100%;
     color: black;
     gap: 600px;
-    
-    
-    
-    
-    
+       
   }
 
   .icon {
@@ -56,7 +114,7 @@
  } 
   
   .barra2 {
-    background-color:black;
+    background:black;
     display: flex;
     justify-content:center;
     padding: 10px;
@@ -65,7 +123,7 @@
         
   }
   .barra3 {
-    background-color:#70a4e0b4;
+    background: linear-gradient(287.56deg,turquoise 0%,rgb(42, 45, 211) 100%);
     color: white;
     display: flex;
     justify-content: center;
