@@ -8,6 +8,9 @@
   }
 
   .logo_barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 60px;
     height: 100%;
     width: 200px;
@@ -95,6 +98,7 @@
     background-color:turquoise;
     display: flex;
     justify-content:space-around;
+    align-items: center;
     padding: 10px;
     height: 100%;
     color: black;
@@ -124,7 +128,7 @@
   }
   .barra3 {
     background: linear-gradient(287.56deg,turquoise 0%,rgb(42, 45, 211) 100%);
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     padding: 8.5px;
@@ -147,13 +151,5 @@
     
     
   }
-.frete{
-  color: black;
-  font-size: 16px ;
-  font-weight: bold; 
-  display: flex;
-  justify-content:flex-end;
-}
-
-
- 
+  
+  
