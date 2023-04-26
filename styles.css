@@ -1,9 +1,8 @@
 * {
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold; 
-    margin: 0;
-    padding: 0;
-    
+  font-weight: bold; 
+  margin: 0;
+  padding: 0;
     
   }
 
@@ -94,7 +93,7 @@
   }
 
 
-  header{
+  .barra-inicio{
     background-color:turquoise;
     display: flex;
     justify-content:space-around;
@@ -151,5 +150,202 @@
     
     
   }
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40300%3B400&family=Roboto%3Awght%40700&family=Rubik%3Aital%2Cwght%400%2C400%3B1%2C300%3B1%2C400&display=swap%27%29%3B");
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script&family=Maven+Pro&family=Poltawski+Nowy:wght@500&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+ 
+  .html-logi{
+    font-size: 62.5%;
+  }
+  .body-login{
+   height: 100vh;
+   width: 100vw;
   
+   box-sizing: border-box;
+   background: linear-gradient(72deg,#4280E1 10%, #3DECB1 72%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+      
+  }
+  .img-login{
+    mix-blend-mode:multiply; #remove cor de fundo 
+    display: flex;
+    height: 300px;
+    width: 300x;
+    margin: auto;
+    padding: auto;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    min-height: 440px;
+    max-height: 500px;
+    
+  }
   
+  .header-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .header-login .h1-login{
+    font-family: "Roboto";
+    font-weight: bold;
+    color:black;
+    font-size: 65px;
+    margin-left: 20px;
+    
+  }
+  .main-login{
+    margin: auto;
+    width: 150%;
+    height:150%;
+    
+  }
+  .main-login form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    font-family: "Poppins";
+  }
+  
+  .body-login .html-login {
+    height: 100vh;
+    width: 100vw;
+    
+       
+  }
+  .input-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 55px;
+    border: 2px solid #def7f4;
+    flex-direction: row-reverse;
+    font-family: "Poppins";
+    transition: 0.3s;
+    
+  }
+
+  .input-field:hover {
+    border: 2px solid #d5ecea;
+
+  }
+
+  .input-field input{
+    border: none;
+    outline: none;
+    background: #def7f4;
+    width: 82%;
+    height: 55px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: "Poppins";
+
+    transition: 0.3s;
+    
+    border-radius: 0 8px 8px 0;
+  }
+  .input-field:hover > input{
+    background-color: #d5ecea;
+    
+
+  }
+
+  ::-webkit-input-placeholder{
+    color:#6d6e6f;
+    font-weight: 300;
+    
+  }
+
+  .input-field label{
+    height: 55px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+  }
+
+.input-field label img {
+  width: 33px;
+  height: 33px;
+  }
+  
+.checkbox label{
+ color: #def7f4;
+ font-family: "Rubik";
+ font-size: 18px;
+ cursor: pointer;
+}
+
+.checkbox label:hover {
+  color:#def7f4;
+}
+.checkbox input{
+  display: none;
+}
+
+.checkbox input + label:before{
+  content: "";
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  vertical-align: middle;
+  border: 2px solid #def7f4;
+  border-radius: 5px;
+  margin-right: 10px;
+
+}
+.checkbox input:checked + label::before{
+  background: url("fotos_login/check.svg") no-repeat center;
+  
+}
+form button{
+  height: 55px;
+  background-color: #447ce7;
+  border: none;
+  border-radius: 10px;
+  color: #def7f4;
+  outline: none;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "Rubik";
+}
+
+form button:hover{
+  color: #3f72d1;
+}
+
+.content .footer-login {
+  margin: auto;
+  width: 150%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150%;
+  border-bottom: 2px solid #def7f478;
+
+}
+
+.footer-login span a {
+  color:white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Rubik";
+  font-style: italic;
+}
+.a-login{
+  color: white;
+  font-family: "Rubik";
+  text-decoration: none;
+  font-size: 18px;
+}
