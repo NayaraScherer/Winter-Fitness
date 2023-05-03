@@ -252,6 +252,13 @@
   @import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40300%3B400&family=Roboto%3Awght%40700&family=Rubik%3Aital%2Cwght%400%2C400%3B1%2C300%3B1%2C400&display=swap%27%29%3B");
   @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script&family=Maven+Pro&family=Poltawski+Nowy:wght@500&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
  
+  .cadastro{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: ;
+  }
   .html-logi{
     font-size: 62.5%;
   }
