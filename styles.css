@@ -9,7 +9,8 @@
   .logo_barra{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
+    gap: 600px;
     border-radius: 60px;
     height: 100%;
     width: 200px;
@@ -21,12 +22,12 @@
   .search-box{
     position: absolute;
     justify-content: space-between;
-    top: 10%;
+    top: 12%;
 
     background: white;
     height: 50px;
     border-radius: 40px;
-    padding: 10px;
+    padding: .5px;
 
     display: flex;
     justify-content: space-between;
@@ -98,29 +99,23 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
-    padding: 10px;
+    
+    padding: 5px;
     height: 100%;
     color: black;
-    gap: 600px;
+    gap: 200px;
+ 
        
   }
-
-  .icon {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+  .nav_link{
+    margin-left: 55px;
   }
- ._17lbfzl{
-  display: flex;
-  padding: 2.5%;
-
- } 
   
   .barra2 {
     background:black;
     display: flex;
     justify-content:center;
-    padding: 10px;
+    padding: 5px;
     list-style: none;
     gap: 130px;
         
@@ -130,9 +125,9 @@
     color: black;
     display: flex;
     justify-content: center;
-    padding: 8.5px;
+    padding: 5px;
     list-style: none;
-    gap: 300px;
+    gap: 200px;
         
   }
 
@@ -140,12 +135,13 @@
   ul{
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 50%;
+    
   
   }
   nav ul li{
     list-style: none;
-    margin-left: 16px;
+    margin-left: 1px;
     list-style-type: none;
     
     
@@ -154,26 +150,59 @@
   /* banner*/
 #banner-index {
 	background: url('./fotobaner/foto3.png') no-repeat;
-	background-size:70%;
-  margin-left:25% ;
-  margin-top: 5%;
+	background-size:cover;
+  
+  margin-top: 2%;
 
-	padding: 20em 0;
+	padding: 16em 0;
   
 }
+.nossasPromocoes{
+  font-size: 40px;
+  color:rgba(13, 94, 86, 0.719);
+  font-weight: bold;
+  padding: auto;
+}
 
+.desconto{
+  font-size: 16px;
+  color: red;
+  
+  background-size: 10px;
+  font-style: italic;
+  margin: 10px 10px;
+}
+.modaFeminina{
+  font-size: 55px;
+  display: flex;
+  justify-content: space-around;
+  color:rgba(100, 32, 100, 0.527);
+  font-weight: bold;
+  padding: auto;
+}
+.modaMasculina{
+  font-size: 55px;
+  display: flex;
+  justify-content: space-around;
+  color:rgba(13, 94, 86, 0.514);
+  font-weight: bold;
+  padding: auto;
+
+}
 #banner-index h2, #banner-index p {
 	color: #FFF;
 	text-align: center;
+  margin-top: 2px 2px;
 }
 
-#tbanner-index h2 {
-	font-size: 36px;
-	margin-bottom: 50px;
+#banner-index h2 {
+	font-size: 50px;
+	margin-bottom: 5px;
+  margin-top: 0%;
 }
 
 #banner-index p {
-	margin-bottom: 50px;
+	margin-bottom: 5px;
 }
 .h2-foto-banner{
   display: flex;
@@ -190,53 +219,62 @@
   display: flex;
   justify-content:stretch;
   align-items: center;
-  margin-left: 15%;
+  margin-left: 1%;
   
 
 }
 
 /* Fotos index */
-#blog-container {
+#blog-container  {
 	text-align: center;
-	padding: 10em 0;
+	padding: 1em 1px;
+  margin-top: 0% ;
+  margin: 2% 2%;
+  
 }
 
 #blog-container .p-center {
-	margin-bottom: 100px;
+	margin-bottom: 1px;
 }
 
 .article-box {
 	display: inline-block;
   
-	width: 31%;
-	padding: 0 1%;
-	text-align: left;
+	width: 30%;
+	margin-top: 0%;
+	text-align:justify;
 }
 
 .article-box img {
 	width: 250px;
 	border-radius: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 1px;
 }
 
 .article-box h4 {
-	font-size: 24px;
-	margin-bottom: 15px;
+	font-size: 20px;
+	margin-bottom: 1px;
+  width: 250px;
+  margin-top: 0%;
 }
 
 .article-box h4 a {
 	text-decoration: none;
 	color: #666;
+  width: 250px;
+  margin-top: 0%;
 }
 
 .article-date {
 	font-size: 12px;
 	margin-bottom: 15px;
+  width: 250px;
 }
 
 .article-resume {
 	font-size: 14px;
 	margin-bottom: 40px;
+  width: 250px;
 }
 
 .article-btn {
@@ -244,6 +282,8 @@
 	
 	color: #FFF;
   text-decoration: none;
+  width: 250px;
+  margin-top: 
 }
 
 
@@ -461,19 +501,15 @@ form button:hover{
 
 * {
     font-family: "Rubik";
-    margin: 0;
+    margin: 0 0;
     padding: 0;
     box-sizing: border-box;
     letter-spacing: 1px;
 }
-
-main {
-    height: 80vh;
-}
-
 footer {
     width: 100%;
     color: var(--color-neutral-40);
+    margin: 0 0;
 }
 
 .footer-link {
@@ -484,7 +520,7 @@ footer {
     background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 3rem 3.5rem;
+    padding: 1rem 1.5rem;
 }
 
 #footer_contacts h1 {
@@ -493,8 +529,8 @@ footer {
 
 #footer_social_media {
     display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
+    gap: 1rem;
+    margin-top: .5rem;
 } 
 
 #footer_social_media .footer-link {
@@ -536,7 +572,7 @@ footer {
     list-style: none;
 }
 .img-pagamentos{
-  width: 100%;
+  width: 80%;
   
   
 }
@@ -553,7 +589,7 @@ footer {
 #footer_subscribe {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: .5rem;
 }
 
 #footer_subscribe p {
@@ -594,32 +630,33 @@ footer {
     justify-content: center;
     background-color: var(--color-neutral-0);
     font-size: 0.9rem;
-    padding: 1.5rem;
-    font-weight: 100;
+    padding: .5rem;
+    font-weight: 10;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 76px) {
     #footer_content {
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        gap: 1rem;
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 42px) {
     #footer_content {
         grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
+        padding: 3px 2px;
     }
 }
 
 .quemsomos{
   font-family: 'Rubik';
-  padding: 5%;
+  padding: 2%;
+  margin-top: auto;
   flex-direction: column;
   display: block;
-  margin-top: 80%;
+  margin-top: 2%;
   font-family: "Poppins";
-  font-size: 40px;
+  font-size: 16px;
   color: whitesmoke;
   background: linear-gradient(72deg,#4280E1 10%, #3DECB1 72%);
 
