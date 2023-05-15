@@ -493,7 +493,7 @@ form button:hover{
 
 :root {
     --color-neutral-0:#aeaeae;
-    --color-neutral-10:white;
+    --color-neutral-10:rgb(255, 255, 255);
     --color-neutral-30:black;
     --color-neutral-40: black;
 
@@ -505,11 +505,15 @@ form button:hover{
     padding: 0;
     box-sizing: border-box;
     letter-spacing: 1px;
+    
+    
 }
 footer {
     width: 100%;
     color: var(--color-neutral-40);
     margin: 0 0;
+    
+    
 }
 
 .footer-link {
@@ -666,7 +670,7 @@ footer {
 }
 /*Formas de PAGAMENTO*/
 .containerPagamento {
-  font-family: "Poppins" cursive;
+  font-family:"Poppins";
   max-width: 500px;
   margin: 20px 500px;
   padding: 20px 20px;
@@ -678,11 +682,14 @@ footer {
 }
 
 .h1Pagamento {
+  font-family:"Poppins" ;
+  font-weight: bold;
   text-align: center;
   
 }
 
 .formPg {
+  font-family:"Poppins";
   margin-top: 20px;
 
   justify-content:center;
@@ -693,6 +700,7 @@ footer {
 }
 
 .labelPg,.formPg, .selecPg {
+  font-family:"Poppins";
   display: block;
   
   margin-bottom: 10px;
@@ -701,6 +709,7 @@ footer {
 }
 
 input[type="submit"] {
+  font-family:"Poppins";
   background-color: #568ddf;
   color: white;
   padding: 10px 20px;
@@ -711,13 +720,70 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #568ddfc9;
+  font-family:"Poppins";
 }
 
 #cartao-info, #boleto-info, #pix-info {
   display: none;
   width: auto;
+  font-family:"Poppins";
 
 }
-#boleto-info {
-  display: block;
-  }
+
+/*Pagina Feminina*/
+
+.bodyFem {
+  background-color: #cf3dec2f;
+  font-family: "Poppins"
+  margin: 0;
+  padding: 0;
+}
+.bodyMasc {
+  background-color: #1014df31;
+  font-family: "Poppins"
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container {
+  font-family: "Poppins"
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  
+  text-align: center;
+}
+
+.produto {
+  
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.produto img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+.botao-comprar {
+  display: inline-block;
+  background-color:  #568ddf;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.botao-comprar:hover {
+  background-color:  #568ddfc9;
+}
