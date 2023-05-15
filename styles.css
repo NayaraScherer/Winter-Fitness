@@ -664,3 +664,60 @@ footer {
 .SAC{
   font-size: 16px;
 }
+/*Formas de PAGAMENTO*/
+.containerPagamento {
+  font-family: "Poppins" cursive;
+  max-width: 500px;
+  margin: 20px 500px;
+  padding: 20px 20px;
+  
+  
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.h1Pagamento {
+  text-align: center;
+  
+}
+
+.formPg {
+  margin-top: 20px;
+
+  justify-content:center;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+}
+
+.labelPg,.formPg, .selecPg {
+  display: block;
+  
+  margin-bottom: 10px;
+  align-items: center;
+  width: auto;
+}
+
+input[type="submit"] {
+  background-color: #568ddf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #568ddfc9;
+}
+
+#cartao-info, #boleto-info, #pix-info {
+  display: none;
+  width: auto;
+
+}
+#boleto-info {
+  display: block;
+  }

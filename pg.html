@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página de Pagamento</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <script src="./java.js" defer></script>
+</head>
+<body>
+  <div class="containerPagamento">
+    <h1 class="h1Pagamento">Pagamento</h1>
+    <form class="formPg">
+      <label class="labelPg" for="metodo-pagamento">Método de Pagamento:</label>
+      <select class="selecPg" id="metodo-pagamento" name="metodo-pagamento">
+        <option value="cartao">Cartão de Crédito</option>
+        <option value="pix">PIX</option>
+      </select>
+      
+      <div id="cartao-info">
+        <label for="nome">Nome:</label>
+        <input class="inputPg" type="text" id="nome" name="nome" required>
+        
+        <label for="numero-cartao">Número do Cartão:</label>
+        <input type="text" id="numero-cartao" name="numero-cartao" required>
+        
+        <label for="data-validade">Data de Validade:</label>
+        <input type="text" id="data-validade" name="data-validade" placeholder="MM/AA" required>
+        
+        <label for="codigo-seguranca">Código de Segurança:</label>
+        <input type="text" id="codigo-seguranca" name="codigo-seguranca" required>
+      </div>
+      
+      <div id="pix-info">
+        <label for="chave-pix">Chave PIX:</label>
+        <input type="text" id="chave-pix" name="chave-pix" required>
+      </div>
+      
+      <input type="submit" value="Pagar">
+    </form>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
