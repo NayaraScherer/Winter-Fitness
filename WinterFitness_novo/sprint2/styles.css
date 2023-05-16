@@ -1,0 +1,798 @@
+* {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold; 
+  margin: 0;
+  padding: 0;
+    
+  }
+
+  .logo_barra{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 600px;
+    border-radius: 60px;
+    height: 100%;
+    width: 200px;
+    color:white;
+    mix-blend-mode: multiply; #remove cor de fundo 
+       
+    
+  }
+  .search-box{
+    position: absolute;
+    justify-content: space-between;
+    top: 12%;
+
+    background: white;
+    height: 50px;
+    border-radius: 40px;
+    padding: .5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  ::-webkit-input-placeholder{
+    font-size: 17px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#aeaeae ;
+  }
+  .search-tex{
+    background: none;
+    border: 0;
+    outline: 0;
+
+    padding: 0;
+    font-size: 16px;
+
+    width: 0;
+
+    transition: 0.4s;
+  }
+  .search-btn{
+    width:50px ;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+  }
+  .loupe-white{
+    display: none;
+  }
+ .search-box:hover > .search-tex{
+  width: 320px;
+  padding-left: 20px;
+ }
+
+ .search-box:hover > .search-btn{
+  background:#447ce7;
+ }
+
+ .search-box:hover > .search-btn .loupe-blue{
+  display:none ;
+ }
+ .search-box:hover > .search-btn .loupe-white{
+  display: block;
+ }
+  .nav_link {
+    text-decoration: none;
+    color: white;
+  }
+  .nav2_link {
+    text-decoration: none;
+    color:white;
+    background: linear-gradient ( 287.56deg,#437DE2 0%,turquoise 100% );
+
+    
+  }
+
+
+  .barra-inicio{
+    background-color:turquoise;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    padding: 5px;
+    height: 100%;
+    color: black;
+    gap: 200px;
+ 
+       
+  }
+  .nav_link{
+    margin-left: 55px;
+  }
+  
+  .barra2 {
+    background:black;
+    display: flex;
+    justify-content:center;
+    padding: 5px;
+    list-style: none;
+    gap: 130px;
+        
+  }
+  .barra3 {
+    background: linear-gradient(287.56deg,turquoise 0%,rgb(42, 45, 211) 100%);
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    list-style: none;
+    gap: 200px;
+        
+  }
+
+  
+  ul{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    
+  
+  }
+  nav ul li{
+    list-style: none;
+    margin-left: 1px;
+    list-style-type: none;
+    
+    
+  }
+
+  /* banner*/
+#banner-index {
+	background: url('./fotobaner/foto3.png') no-repeat;
+	background-size:cover;
+  
+  margin-top: 2%;
+
+	padding: 16em 0;
+  
+}
+.nossasPromocoes{
+  font-size: 40px;
+  color:rgba(13, 94, 86, 0.719);
+  font-weight: bold;
+  padding: auto;
+}
+
+.desconto{
+  font-size: 16px;
+  color: red;
+  
+  background-size: 10px;
+  font-style: italic;
+  margin: 10px 10px;
+}
+.modaFeminina{
+  font-size: 55px;
+  display: flex;
+  justify-content: space-around;
+  color:rgba(100, 32, 100, 0.527);
+  font-weight: bold;
+  padding: auto;
+}
+.modaMasculina{
+  font-size: 55px;
+  display: flex;
+  justify-content: space-around;
+  color:rgba(13, 94, 86, 0.514);
+  font-weight: bold;
+  padding: auto;
+
+}
+#banner-index h2, #banner-index p {
+	color: #FFF;
+	text-align: center;
+  margin-top: 2px 2px;
+}
+
+#banner-index h2 {
+	font-size: 50px;
+	margin-bottom: 5px;
+  margin-top: 0%;
+}
+
+#banner-index p {
+	margin-bottom: 5px;
+}
+.h2-foto-banner{
+  display: flex;
+  justify-content:baseline;
+  align-items: center;
+  margin-left: 10%;
+  font-size: 50px;
+  
+  font-family: "Rubik";
+}
+.p-banner{
+  font-family: "Rubik";
+  font-size: 100px;
+  display: flex;
+  justify-content:stretch;
+  align-items: center;
+  margin-left: 1%;
+  
+
+}
+
+/* Fotos index */
+#blog-container  {
+	text-align: center;
+	padding: 1em 1px;
+  margin-top: 0% ;
+  margin: 2% 2%;
+  
+}
+
+#blog-container .p-center {
+	margin-bottom: 1px;
+}
+
+.article-box {
+	display: inline-block;
+  
+	width: 30%;
+	margin-top: 0%;
+	text-align:justify;
+}
+
+.article-box img {
+	width: 250px;
+	border-radius: 20px;
+	margin-bottom: 1px;
+}
+
+.article-box h4 {
+	font-size: 20px;
+	margin-bottom: 1px;
+  width: 250px;
+  margin-top: 0%;
+}
+
+.article-box h4 a {
+	text-decoration: none;
+	color: #666;
+  width: 250px;
+  margin-top: 0%;
+}
+
+.article-date {
+	font-size: 12px;
+	margin-bottom: 15px;
+  width: 250px;
+}
+
+.article-resume {
+	font-size: 14px;
+	margin-bottom: 40px;
+  width: 250px;
+}
+
+.article-btn {
+	background-color: #3381f3;
+	
+	color: #FFF;
+  text-decoration: none;
+  width: 250px;
+  margin-top: 
+}
+
+
+/*login*/
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40300%3B400&family=Roboto%3Awght%40700&family=Rubik%3Aital%2Cwght%400%2C400%3B1%2C300%3B1%2C400&display=swap%27%29%3B");
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script&family=Maven+Pro&family=Poltawski+Nowy:wght@500&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+ 
+  .cadastro{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: ;
+  }
+  .html-logi{
+    font-size: 62.5%;
+  }
+  .body-login{
+   height: 100vh;
+   width: 100vw;
+  
+   box-sizing: border-box;
+   background: linear-gradient(72deg,#4280E1 10%, #3DECB1 72%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+      
+  }
+  .img-login{
+    mix-blend-mode:multiply; #remove cor de fundo 
+    display: flex;
+    height: 300px;
+    width: 300x;
+    margin: auto;
+    padding: auto;
+  }
+ 
+  
+  .header-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .header-login .h1-login{
+    font-family: "Roboto";
+    font-weight: bold;
+    color:black;
+    font-size: 65px;
+    margin-left: 20px;
+    
+  }
+  .main-login{
+    margin: auto;
+    width: 150%;
+    height:150%;
+    
+  }
+  .main-login form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    font-family: "Poppins";
+  }
+  
+  .body-login .html-login {
+    height: 100vh;
+    width: 100vw;
+    
+       
+  }
+  .input-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 55px;
+    border: 2px solid #def7f4;
+    flex-direction: row-reverse;
+    font-family: "Poppins";
+    transition: 0.3s;
+    
+  }
+
+  .input-field:hover {
+    border: 2px solid #d5ecea;
+
+  }
+
+  .input-field input{
+    border: none;
+    outline: none;
+    background: #def7f4;
+    width: 82%;
+    height: 55px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: "Poppins";
+
+    transition: 0.3s;
+    
+    border-radius: 0 8px 8px 0;
+  }
+  .input-field:hover > input{
+    background-color: #d5ecea;
+    
+
+  }
+
+  ::-webkit-input-placeholder{
+    color:#6d6e6f;
+    font-weight: 300;
+    
+  }
+
+  .input-field label{
+    height: 55px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+  }
+
+.input-field label img {
+  width: 33px;
+  height: 33px;
+  }
+  
+.checkbox label{
+ color: #def7f4;
+ font-family: "Rubik";
+ font-size: 18px;
+ cursor: pointer;
+}
+
+.checkbox label:hover {
+  color:#def7f4;
+}
+.checkbox input{
+  display: none;
+}
+
+.checkbox input + label:before{
+  content: "";
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  vertical-align: middle;
+  border: 2px solid #def7f4;
+  border-radius: 5px;
+  margin-right: 10px;
+
+}
+.checkbox input:checked + label::before{
+  background: url("fotos_login/check.svg") no-repeat center;
+  
+}
+form button{
+  height: 55px;
+  background-color: #447ce7;
+  border: none;
+  border-radius: 10px;
+  color: #def7f4;
+  outline: none;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "Rubik";
+}
+
+form button:hover{
+  color: #3f72d1;
+}
+
+.content .footer-login {
+  margin: auto;
+  width: 150%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150%;
+  border-bottom: 2px solid #def7f478;
+
+}
+
+.footer-login span a {
+  color:white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Rubik";
+  font-style: italic;
+}
+.a-login{
+  color: white;
+  font-family: "Rubik";
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*footer index*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --color-neutral-0:#aeaeae;
+    --color-neutral-10:rgb(255, 255, 255);
+    --color-neutral-30:black;
+    --color-neutral-40: black;
+
+}
+
+* {
+    font-family: "Rubik";
+    margin: 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    
+    
+}
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+    margin: 0 0;
+    
+    
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 1.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 1rem;
+    margin-top: .5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+   
+    gap: 0.75rem;
+    list-style: none;
+}
+.img-pagamentos{
+  width: 80%;
+  
+  
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #447ce7;;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: .5rem;
+    font-weight: 10;
+}
+
+@media screen and (max-width: 76px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 42px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3px 2px;
+    }
+}
+
+.quemsomos{
+  font-family: 'Rubik';
+  padding: 2%;
+  margin-top: auto;
+  flex-direction: column;
+  display: block;
+  margin-top: 2%;
+  font-family: "Poppins";
+  font-size: 16px;
+  color: whitesmoke;
+  background: linear-gradient(72deg,#4280E1 10%, #3DECB1 72%);
+
+}
+.SAC{
+  font-size: 16px;
+}
+/*Formas de PAGAMENTO*/
+.containerPagamento {
+  font-family:"Poppins";
+  max-width: 500px;
+  margin: 20px 500px;
+  padding: 20px 20px;
+  
+  
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.h1Pagamento {
+  font-family:"Poppins" ;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.formPg {
+  font-family:"Poppins";
+  margin-top: 20px;
+
+  justify-content:center;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+}
+
+.labelPg,.formPg, .selecPg {
+  font-family:"Poppins";
+  display: block;
+  
+  margin-bottom: 10px;
+  align-items: center;
+  width: auto;
+}
+
+input[type="submit"] {
+  font-family:"Poppins";
+  background-color: #568ddf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #568ddfc9;
+  font-family:"Poppins";
+}
+
+#cartao-info, #boleto-info, #pix-info {
+  display: none;
+  width: auto;
+  font-family:"Poppins";
+
+}
+
+/*Pagina Feminina*/
+
+.bodyFem {
+  background-color: #cf3dec2f;
+  font-family: "Poppins"
+  margin: 0;
+  padding: 0;
+}
+.bodyMasc {
+  background-color: #1014df31;
+  font-family: "Poppins"
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container {
+  font-family: "Poppins"
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  
+  text-align: center;
+}
+
+.produto {
+  
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.produto img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+.botao-comprar {
+  display: inline-block;
+  background-color:  #568ddf;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.botao-comprar:hover {
+  background-color:  #568ddfc9;
+}
+
+.containerCarrinho{
+  display: inline-block;
+  background-color:  #568ddf;
+  color: #fff;
+  padding: 2px 700px;
+  text-decoration: none;
+  border-radius: 5px;
+}
