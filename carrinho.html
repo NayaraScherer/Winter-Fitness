@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./java.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script&family=Maven+Pro&family=Philosopher:wght@700&family=Poltawski+Nowy:wght@500&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,400&family=Roboto:wght@100&display=swap" rel="stylesheet">    
+    <title>Página do Carrinho</title>
+</head>
+<body>
+    <header class="barra-inicio">
+        <img href="./index.html" class="logo_barra" src="./Logo/Winter.png" height="120px" width="120px"alt="Logo Winter Fitness">
+        <nav>
+            <ul>
+                <li>
+                    <a  class="nav_link" href="./Login.html">
+                    <img  class="lupa" href="./Login.html"  src="./Logo/17004.png" height="40" width="40" id="btnBusca" alt="Buscar"/></a>
+                </li> 
+                <li>
+                    <a class="nav_link" href="./carrinho.html">
+                    <img class="lupa" src="./Logo/126510.png" height="40" width="40" id="btnBusca" alt="Buscar"/></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav>
+        <div class="barra2">
+            <li>
+                <a class="nav2_link" href="./Masculino.html">Masculino</a>
+            </li>
+            <li>
+                <a class="nav2_link" href="./Feminino.html">Feminino</a>
+            </li>
+        </div>
+    </nav>
+    <nav>
+        <div class="barra3">
+            <li>
+                <img class="icon" src="./Logo/free-shipping.png" height="35" width="35" alt="caixa" srcset=""> <p class="frete"> Frete Grátis</p>
+            </li>
+            <li>
+                <img class="icon" src="./Logo/box.png"  height="30" width="30" alt="caixa" srcset=""> <p class="frete"> Troca Grátis</p>
+            </li>
+            <li>
+                <img class="icon" src="./Logo/attendance-mark.png" height="30" width="30" alt="caixa" srcset=""> <p class="frete"> Atendimento Pessoal</p>
+            </li>
+            <li>
+                <img class="icon" src="./Logo/card-security.png" height="30" width="30" alt="caixa" srcset=""> <p class="frete"> Pagamento Seguro</p>
+            </li>
+        </div>
+</nav> 
+<div class="containerCarrinho">
+    <h1 class="h1Carrinho">Carrinho</h1>
+    <div class="itensCarrinho">
+        <div class="item7">
+            <img src="Fotos_roupas/hom1.jpg" alt="Quantidade 1">
+            <h3>Quantidade 1</h3>
+            <p>R$ 99,99</p>
+            <button class="removerItem">Remover</button>
+        </div>
+        <div class="item8">
+            <img src="Fotos_roupas/fem1.jpg" alt="Quantidade 2">
+            <h3>Quantidade 1</h3>
+            <p>R$ 149,99</p>
+            <button class="removerItem">Remover</button>
+        </div>
+        <!-- Adicione mais itens do carrinho aqui -->
+    </div>
+    <div class="totalCarrinho">
+        <h3>Total:</h3>
+        <p>R$ 249,98</p>
+    </div>
+    <button class="finalizarCompra">Finalizar Compra</button>
+</div>
+
+<footer class="footer-index">
+        <div id="footer_content">
+        <div id="footer_contacts">
+            <h1>Winter Fitness</h1>
+            <p>Moda fitness de qualidade.</p>
+        <div id="footer_social_media">
+            <a href="#" class="footer-link" id="instagram">
+            <img src="./Logo/instagram.jpg" width="40" height="40" alt="">
+            </a>
+
+            <a href="#" class="footer-link" id="facebook">
+            <img src="./Logo/facebook.jpg" width="40" height="40" alt="">
+            </a>
+            <a href="#" class="footer-link" id="whatsapp">
+            <img src="./Logo/whatsapp.jpg" width="40" height="40" alt="">
+            </a>
+        </div>
+        </div>
+            
+            <ul class="footer-list">
+                <li>
+            <h3>Formas de pagamento </h3> <br>
+            <p>Aceitamos todas as bandeiras de cartões.</p><br>
+            <img class="img-pagamentos" src="./Logo/pagamento4.png"  alt="forto formas de pagamento">                                 
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Contatos</h3>
+                </li>
+                <li class="SAC">
+                    <a href="#" class="footer-link">SAC</a>
+                </li>
+                <li class="EMAIL">
+                    <a href="#" class="footer-link">E-mail</a>
+                </li>
+                
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscreva-se</h3>
+                <p>
+                    Introduza o seu e-mail para ser notificado sobre as nossas soluções de notícias
+                </p>
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <img src="./Logo/email.png" width="30" height="30" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 all rights reserved Winter Fitness
+        </div>
+    
+</footer>
+</body>
+</html>
